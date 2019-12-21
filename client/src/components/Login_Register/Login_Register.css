@@ -1,0 +1,139 @@
+@font-face {
+    font-family: myfont;
+    src: url("../Takeshi DEMO.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+
+/* Login Div Style */
+
+.LoginDiv {
+    position: absolute;
+    width: 45%;
+    background: linear-gradient(to left, #bdc3c7, #2c3e50);
+    height: 80%;
+    border-radius: 25px;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.75);
+}
+
+.LoginDiv form {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.LoginDiv h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.LoginDiv input {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #eeeeee;
+    margin: auto;
+    width: 70%;
+    height: 20%;
+    text-align: center;
+    font-size: medium;
+}
+
+.LoginDiv form input:last-child {
+    width: 25%;
+}
+
+.LoginDiv img {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 3%;
+    right: 50%;
+    transform: translate(60%);
+}
+
+
+/* End Login Div Style */
+
+
+/* Register Div Style */
+
+.RegisterDiv {
+    position: absolute;
+    width: 45%;
+    background: linear-gradient(to left, #bdc3c7, #2c3e50);
+    height: 80%;
+    border-radius: 25px;
+    top: 55%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.75);
+}
+
+.RegisterDiv form {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.RegisterDiv h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.RegisterDiv input {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #eeeeee;
+    margin: auto;
+    width: 70%;
+    height: 20%;
+    text-align: center;
+    font-size: medium;
+}
+
+.RegisterDiv form input:last-child {
+    width: 25%;
+}
+
+.RegisterDiv img {
+    width: 15%;
+    margin: 0;
+    position: absolute;
+    top: 3%;
+    right: 50%;
+    transform: translate(60%);
+}
+
+
+/* End of Register Div Style */
+
+
+/*Buttons styling*/
+
+.Title {
+    font-family: myfont, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 72px;
+    font-weight: 1000;
+    background: linear-gradient(to top, #bdc3c7, #2c3e50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}

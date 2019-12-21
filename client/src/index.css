@@ -1,0 +1,25 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        display: block;
+        height: 100vh;
+        text-align: center;
+        background-image: url('./Background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    #root {
+        display: inline-block;
+        width: 85%;
+        height: 85vh;
+        position: relative;
+        top: 6.25vh;
+        background: rgb(245, 245, 245, 0.6);
+        border-radius: 50px;
+        box-shadow: 10px 10px 25px 0px rgb(49, 25, 25)
+    }

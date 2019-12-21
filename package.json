@@ -1,0 +1,36 @@
+{
+    "name": "quizzproject",
+    "version": "1.0.0",
+    "description": "Quizz application  with the MERN stack",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "cd client && npm start ",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Abde-Slimani/QuizzProject.git"
+    },
+    "author": "Abdellah Slimani",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Abde-Slimani/QuizzProject/issues"
+    },
+    "homepage": "https://github.com/Abde-Slimani/QuizzProject#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "concurrently": "^5.0.0",
+        "express": "^4.17.1",
+        "is-empty": "^1.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.7.13",
+        "passport": "^0.4.1",
+        "passport-jwt": "^4.0.0",
+        "validator": "^12.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.1"
+    }
+}
