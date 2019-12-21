@@ -1,25 +1,6 @@
 import React from 'react'
-
-class QuizzNavBar extends React.Component{
-    constructor(props){
-        super(props)
-        this.state = {
-            userName : 'Some Name',
-        }
-    }
-
-    render(){
-        return(
-            <div>
-                <ul>
-                    <li>{this.state.userName}</li>
-                    <li><h1>Welcome to QuizzApp</h1></li>
-                    <li>*Timer Code</li>
-                </ul>
-            </div>
-        )
-    }
-}
+import PassQuizzNav from './PassQuizzNav'
+import './PassQuizz.css'
 
 class PassQuizz extends React.Component {
     constructor(props){
@@ -32,7 +13,7 @@ class PassQuizz extends React.Component {
     render(){
         return(
             <div>
-                <QuizzNavBar />
+                <PassQuizzNav />
             </div>
         )
     }
