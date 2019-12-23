@@ -6,17 +6,21 @@ import HomeNavBar from './HomeNav'
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className>
                 <HomeNavBar />
                 <h1 className= "dashboard">Dashboard</h1>
-                <div className = 'wrapper'>
-                    <QuizzComp quizzName = 'quizz1' quizzDesc = 'quizz description lorem lorem ispum hello' />
-                    <QuizzComp />
-                    <QuizzComp />
-                    <QuizzComp />
-                    <QuizzComp />
-                    <QuizzComp />
-            
+                <div className= 'gridcontainer'>
+                    <div className = 'wrapper'>
+                        <QuizzComp quizzName = 'quizz1' quizzDesc = 'quizz description lorem lorem ispum hello' />
+                        <QuizzComp />
+                        <QuizzComp />
+                        <QuizzComp />
+                        <QuizzComp />
+                        <QuizzComp />
+                        <QuizzComp />
+                        <QuizzComp />
+                    
+                    </div>
                 </div>
             </div>
         )

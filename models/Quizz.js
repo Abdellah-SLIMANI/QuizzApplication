@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const QuizzSchema = new Schema({
     question: {
         type: String,
-
+        required: true,
     },
     answer1: {
         type: String,
@@ -26,7 +26,7 @@ const QuizzSchema = new Schema({
         type: String,
         required: true,
         isTrue: Boolean
-    }
+    },
 });
 
 module.exports = Quizz = mongoose.model('quizz', QuizzSchema);

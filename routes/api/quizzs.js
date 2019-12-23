@@ -15,9 +15,9 @@ router.post('/', (req, res) => {
     const newQuizz = new Quizz({
         question: req.body.question,
         answer1: req.body.answer1,
-        answer1: req.body.answer2,
-        answer1: req.body.answer3,
-        answer1: req.body.answer4,
+        answer2: req.body.answer2,
+        answer3: req.body.answer3,
+        answer4: req.body.answer4,
     })
 
     newQuizz.save()

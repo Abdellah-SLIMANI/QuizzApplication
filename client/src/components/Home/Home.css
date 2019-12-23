@@ -48,7 +48,12 @@
         /*  end of navbar style */
         /* quizzs styles */
         
+        .gridcontainer {
+            overflow-y: scroll;
+        }
+        
         .wrapper {
+            height: 56vh;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 5rem;
@@ -60,6 +65,7 @@
         }
         
         .QuizzContainer {
+            position: relative;
             background: linear-gradient(to left, #bdc3c7, #2c3e50);
             height: 20vh;
             box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
