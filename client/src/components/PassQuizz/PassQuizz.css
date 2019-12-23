@@ -59,7 +59,7 @@ nav li:nth-child(3) {
     text-align: center;
 }
 
-hr {
+.quizzhr {
     position: relative;
     width: 50%;
     left: 50%;

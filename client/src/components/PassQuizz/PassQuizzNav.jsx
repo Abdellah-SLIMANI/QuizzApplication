@@ -38,7 +38,7 @@ class PassQuizzNav extends React.Component{
                                 <br/>
                                 <input type="checkbox"/> {quiz.answer4}
                                 <br/>
-                                <hr/>
+                                <hr className ="quizzhr"/>
                             </div>
                             )
                         })}
